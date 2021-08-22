@@ -7,9 +7,6 @@
     >
     <router-link to="/" >|VueProject|</router-link>
     <v-spacer></v-spacer>
-    <router-link to="/users">allUseres</router-link>
-    <v-spacer></v-spacer>
-    <router-link to="/others">...</router-link>
     </v-app-bar>
 
     <v-main>
