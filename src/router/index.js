@@ -33,10 +33,19 @@ const routes = [
     path: '/others',
     name: 'others',
     component: () => import( '../components/Axios.vue')
+  },
+  {
+    name:'wiki-info',
+    path: '/wiki/:id',
+    beforeEnter() {location.href = 'https://en.wikipedia.org/wiki/' },
+    props: true,
   }
 ]
 const router = new VueRouter({
   // history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
+  data(){
+
+  },
 })
 export default router
