@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../components/Home.vue'
-import HelloWorld from '../components/HelloWorld'
-import Profile from "../components/Profile";
-import Сurrency from "../components/Currency";
+import HelloWorld from '../components/ProfileList/ProfileList'
+import Profile from "../components/ProfileList/Profile";
+import Сurrency from "../components/Currency/Currency";
 
 
 Vue.use(VueRouter)
@@ -32,7 +32,12 @@ const routes = [
   {
     path: '/others',
     name: 'others',
-    component: () => import( '../components/Axios.vue')
+    component: () => import( '../components/QuoteOfTheDay/QuoteOfTheDay.vue')
+  },
+  {
+    path: '/404',
+    name: 'NotFound',
+    component: () => import( '../components/NotFound.vue')
   },
   {
     name:'wiki-info',

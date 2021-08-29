@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import users from '../store/modules/userModules'
+import users from '../../store/modules/userModules'
 export default {
   name: 'Profile',
   data(){
