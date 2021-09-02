@@ -91,8 +91,6 @@
    background: rgba(255,169,88,0.64);
    border-radius: 5px;
    color: #2F242C;
-
-
 }
 .one-day-quote p{
    display: block;

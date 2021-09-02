@@ -4,7 +4,7 @@ import Home from '../components/Home.vue'
 import HelloWorld from '../components/ProfileList/ProfileList'
 import Profile from "../components/ProfileList/Profile";
 import Сurrency from "../components/Currency/Currency";
-
+import FileUploader from "../components/FileUploader/FileUploader"
 
 Vue.use(VueRouter)
 const routes = [
@@ -38,6 +38,11 @@ const routes = [
     path: '/404',
     name: 'NotFound',
     component: () => import( '../components/NotFound.vue')
+  },
+  {
+    name: 'FileUploader',
+    path: '/file-info',
+    component: FileUploader,
   },
   {
     name:'wiki-info',

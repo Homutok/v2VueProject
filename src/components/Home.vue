@@ -7,6 +7,7 @@
             <li><h3><router-link to="/users">Vue,Vuetify and Vuex training</router-link> - Просто тренировался</h3></li>
             <li><h3><router-link to="/others">axios training</router-link> - Тренировался с axios</h3></li>
             <li><h3><router-link to="/currency">Центробанк</router-link>- Работа с API Центробанка</h3></li>
+            <li><h3><router-link to="/file-info">Файлообработчик</router-link>- Работа с файлами</h3></li>
             </ul>
         </div>
      </v-container>

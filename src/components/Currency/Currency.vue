@@ -90,11 +90,5 @@
     }
 </script>
 <style scoped>
-  .text-label{
-    font-style: italic;
-    font-size: 15px;
-  }
-  #select-size{
 
-  }
 </style>
